@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/card"
+    tools:context=".bmi_output">
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="120sp"
+        android:padding="20sp"
+        android:textStyle="italic|bold"
+        android:fontFamily="cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginRight="30sp"
+        android:text="your bmi is:"
+        />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="30sp"
+        />
+
+
+
+
+</LinearLayout>
